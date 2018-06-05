@@ -1,30 +1,44 @@
 baseURL = "https://KhalidCK.github.io"
 languageCode = "en-us"
-title = "Khalid C."
-theme = "coder"
+title = "Khalid C. Weblog"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/KhalidCK\">Khalid C.</a> 2018"
+disqusShortname = ""
+googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
 
-[params] # theme parameters
-    author = "Khalid Chakhmoun" # author's name
-    info = "Think fast & slow" # author's job title or info
-    description = "Khalid C's personal website" # site description
-    keywords = "blog,machine learning," # site keywords
+pygmentsCodeFences=true
 
-    # wether you want to hide copyright and credits in the footer
-    hideCredits = true
-    hideCopyright = true
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false# Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = false# Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
 
-# Social links
-[[params.social]]
-    name = "Github"
-    weight = 1
-    url = "https://github.com/KhalidCK/"
 
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+
+twitter = ""
+github = "KhalidCK"
+email = "fr.ckhalid@gmail.com"
+linkedin = ""
+facebook = ""
+instagram = ""
+codepen = ""
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true

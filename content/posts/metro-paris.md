@@ -1,5 +1,5 @@
 ---
-title: "Parisian metro"
+title: "Parisian metro wisdom"
 date: 2018-04-10T20:44:00+02:00
 draft: false
 ---
@@ -31,13 +31,13 @@ The other is a hourly ticket validation percentage , built according to some hom
 
 Let's get a sense of the number of people that get a ride every month on the metro
 
-![monthly traveler in millions](img/metro/monthly-traveler.png)
+![monthly traveler in millions](/img/metro/monthly-traveler.png)
 
 There is an expected deep in August when public holidays occur.
 
 An interesting insight is to check how they are distributed across lines
 
-![daily passenger distribution](img/metro/daily-passenger-distribution.png)
+![daily passenger distribution](/img/metro/daily-passenger-distribution.png)
 
 Each point represents the daily number of travelers 
 
@@ -56,11 +56,11 @@ The hourly percentage is defined as : the number of daily validation to a specif
 
 Hereafter an overview
 
-![average-metro-user-per-hour](img/metro/average-metro-user-per-hour.png)
+![average-metro-user-per-hour](/img/metro/average-metro-user-per-hour.png)
 
 And for each profile
 
-![facet-profile](img/metro/facet-grid-user-per-hour.png)
+![facet-profile](/img/metro/facet-grid-user-per-hour.png)
 
 
 ## So ?
