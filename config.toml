@@ -128,12 +128,12 @@ disqusShortname = ""
 
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://www.github.com/KhalidCK"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/khalid-chakhmoun-83876033"
       label = "LinkedIn"
 
     [[params.footer.social]]
