@@ -1,44 +1,159 @@
-baseURL = "https://KhalidCK.github.io"
-languageCode = "en-us"
-title = "Khalid C. Weblog"
-theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/KhalidCK\">Khalid C.</a> 2018"
-disqusShortname = ""
+# Site settings
+baseURL = "https://khalidck.github.io/"
+languageCode = "fr"
+title = "KhalidCK"
+theme = "forty"
+
+# Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
-# Number of posts per page
-Paginate = 5
-enableRobotsTXT = true
 
-pygmentsCodeFences=true
+# Enter your disqus shortname to enable comments
+disqusShortname = ""
 
-[params.info]
-adsense = "" # Adsense ID (ID only, without ca-pub-)
-enableSocial = false# Adds OpenGraph and Twitter cards
-homeTitle = "" # Title for home page
-poweredby = false# Adds powered by hugo and kiss below Copyright
-related = true # Includes related articles at the bottom of the article
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "Khalid CK"
+  description = "blog personnel data engineer"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page introuvable"
+    text = "Revenir à l'[accueil](https://khalidck.github.io/)"
+
+  # Navigation Section
+  [params.navigation]
+    title = "Khalid CK"
+    subtitle = "Data Analyst"
+    menu = "Menu"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+
+    [[params.navigation.links]]
+      name = "Home"
+      url = "#"
+
+    [[params.navigation.links]]
+      name = "CV"
+      url = "cv"
+
+    [[params.navigation.links]]
+      name = "Blog"
+      url = "posts"
+
+    [[params.navigation.links]]
+      name = "A propos"
+      url = "a-propos.html"
+
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+    # Button Style 1
+    #[[params.navigation.button1]]
+    #  name = "Get Started"
+    #  url = "blogs"
+
+    # Button Style 2
+    # [[params.navigation.button2]]
+    #   name = "Log In"
+    #   url = "#"
 
 
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
+  # Banner section
+  [params.banner]
+    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # the 'static/img' folder.
+    title = "Khalid Chakhmoun"
+    subtitle = "Portofolio et notes"
+    buttonText = "Projets"
 
-[params.opengraph.twitter]
-page = "" # Twitter Page username. If not set, params.social.twitter will be used.
 
-[params.social]
+  # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.tiles.showcase]]
+      title = "Aliquam"
+      subtitle = "Ipsum Dolor Sit Amet"
+      image = "pic01.jpg"
+      url = "blogs/aliquam"
 
-twitter = ""
-github = "KhalidCK"
-email = "fr.ckhalid@gmail.com"
-linkedin = ""
-facebook = ""
-instagram = ""
-codepen = ""
+    [[params.tiles.showcase]]
+      title = "Tempus"
+      subtitle = "Feugiat Amet Tempus"
+      image = "pic02.jpg"
+      url = "blogs/tempus"
 
-[taxonomies]
-tag ="tags"
+    [[params.tiles.showcase]]
+      title = "Magna"
+      subtitle = "Lorem Etiam Nullam"
+      image = "pic03.jpg"
+      url = "blogs/magna"
 
-[blackfriday]
-hrefTargetBlank = true
+    [[params.tiles.showcase]]
+      title = "Ipsum"
+      subtitle = "Nisl Sed Aliquam"
+      image = "pic04.jpg"
+      url = "blogs/ipsum"
+
+    [[params.tiles.showcase]]
+      title = "Consequat"
+      subtitle = "Ipsum Dolor Sit Amet"
+      image = "pic05.jpg"
+      url = "blogs/ipsum"
+
+    [[params.tiles.showcase]]
+      title = "Etiam"
+      subtitle = "Feugiat Amet Tempus"
+      image = "pic06.jpg"
+      url = "blogs/ipsum"
+    # You can make more showcases by copy and pasting the code above
+
+  [params.blog]
+    # All blogs defined in their own files. You can find example blogs
+    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    # To add more blogs just copy and paste the code.
+
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Khalid Chakhmoun"
+
+    # Uses font awesome icons
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      url= "https://www.github.com"
+      label = "GitHub"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      url= "https://www.linkedin.com"
+      label = "LinkedIn"
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      url= "https://twitter.com/fr_KhalidC"
+      label = "Twitter"
