@@ -39,37 +39,24 @@ disqusShortname = ""
   [params.navigation]
     title = "Khalid CK"
     subtitle = "Data Analyst"
-    menu = "Menu"
-    # Optional logo as brand stored in img/
-    # logo = "logo.png"
-
-    [[params.navigation.links]]
-      name = "Home"
-      url = "#"
-
-    [[params.navigation.links]]
-      name = "CV"
-      url = "cv"
-
-    [[params.navigation.links]]
-      name = "Blog"
-      url = "posts"
-
-    [[params.navigation.links]]
-      name = "A propos"
-      url = "a-propos.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
     # code below if you need more links. Buttons work in the same way.
-    # [[params.navigation.links]]
-    #    name = "NameOfLink"
-    #    url = "UrlOfLink"
+     [[params.navigation.links]]
+        name = "Home"
+        url = "index.html"
+     [[params.navigation.links]]
+        name = "Github"
+        url = "https://www.github.com/KhalidCK"
 
+     [[params.navigation.links]]
+        name = "LinkedIN"
+        url = "https://www.linkedin.com/in/khalid-chakhmoun-83876033"
     # Button Style 1
-    # [[params.navigation.button1]]
-    #   name = "CV"
-    #   url = "blogs"
+      # [[params.navigation.button1]]
+      #   name = "CV"
+      #   url = "blogs"
 
     # Button Style 2
     # [[params.navigation.button2]]
@@ -83,7 +70,6 @@ disqusShortname = ""
     # the 'static/img' folder.
     title = "Khalid Chakhmoun"
     subtitle = "Portofolio et notes"
-    buttonText = "Projets"
 
 
   # Tiles Section
@@ -95,7 +81,7 @@ disqusShortname = ""
       title = "Metro Parisien"
       subtitle = "Eviter la foule"
       image = "metro_out.jpg"
-      url = "blogs/metro"
+      url = "posts/metro"
 
     [[params.tiles.showcase]]
       title = "Immobilier"
