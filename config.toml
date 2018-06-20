@@ -5,7 +5,7 @@ title = "KhalidCK"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-121079793-1"
 
 # Enter your disqus shortname to enable comments
 disqusShortname = ""
@@ -38,7 +38,7 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Khalid CK"
-    subtitle = "Data Analyst"
+    subtitle = "Data Analyst, long-life learner"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -84,16 +84,16 @@ disqusShortname = ""
       url = "posts/metro"
 
     [[params.tiles.showcase]]
-      title = "Immobilier"
+      title = "Immobilier à Lille"
       subtitle = "trouver son logement"
       image = "lbc_immo.jpg"
-      url = "blogs/immo"
+      url = "posts/lbc-immo-lille"
 
-    [[params.tiles.showcase]]
-      title = "Qualité de l'air"
-      subtitle = "Quand faire son jogging"
-      image = "pic02.jpg"
-      url = "blogs/air"
+    # [[params.tiles.showcase]]
+    #   title = "Qualité de l'air"
+    #   subtitle = "Quand faire son jogging"
+    #   image = "pic02.jpg"
+    #   url = "blogs/air"
 
     # You can make more showcases by copy and pasting the code above
 
