@@ -78,16 +78,16 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
+      title = "Tidy data"
+      subtitle = "Des données en ordre"
+      image = "tidy_data.jpg"
+      url = "posts/tidydata"
+
+    [[params.tiles.showcase]]
       title = "Metro Parisien"
       subtitle = "Eviter la foule"
       image = "metro_out.jpg"
       url = "posts/metro"
-
-    [[params.tiles.showcase]]
-      title = "Immobilier à Lille"
-      subtitle = "trouver son logement"
-      image = "lbc_immo.jpg"
-      url = "posts/lbc-immo-lille"
 
     # [[params.tiles.showcase]]
     #   title = "Qualité de l'air"
