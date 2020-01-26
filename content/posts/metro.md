@@ -59,22 +59,16 @@ Explorons maintenant le deuxième dataset.
 
 Les données sont divisées en 5 profils :
 
-> ● Dimanche, jours fériés et ponts
->
-> ● Jour ouvré en période de vacances scolaires
->
-> ● Jour ouvré hors période de vacances scolaires
->
-> ● Samedi en période de vacances scolaires
->
-> ● Samedi en période de vacances scolaires
+1. Dimanche, jours fériés et ponts
+2. Jour ouvré en période de vacances scolaires
+3. Jour ouvré hors période de vacances scolaires
+4. Samedi en période de vacances scolaires
+5. Samedi en période de vacances scolaires
 
 Le taux de validation par heure est défini comme :
 
-"le nombre de validations pour une heure et une station spécifique
-divisé par le nombre total de validations dans la journée"
-
-Pour chaque jour le pourcentage a donc pour total 100.
+>Le nombre de validations pour une heure et une station spécifique
+divisé par le nombre total de validations dans la journée
 
 Une vue d'ensemble :
 
