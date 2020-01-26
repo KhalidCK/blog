@@ -4,31 +4,29 @@ date: 2018-04-10T20:44:00+02:00
 draft: false
 ---
 
-
 À Paris, le métro est une nécessité pour la majorité de ses habitants.
 Il est composé de 14 lignes principales qui s'étendent sur près de 220
 km. En moyenne, entre deux stations il y a 500m. Il a beaucoup
-d'avantages, mais un inconvénient de taille : il est *extrêmement*
+d'avantages, mais un inconvénient de taille : il est _extrêmement_
 fréquenté.
 
 Si l'on souhaite éviter la foule, il est communément admis **d'éviter**
 les horaires suivants :
 
-* Le matin entre 8 et 9h
-* Le soir entre 17 et 19h
+- Le matin entre 8 et 9h
+- Le soir entre 17 et 19h
 
 Existe-t-il des données pour confirmer ce constat empirique ? Est-il
 vrai dans tous les jours de la semaine, toute l'année et pour toutes les
 lignes de métro ?
 
-*Pour les explorateurs:* [une visualisation PowerBI](https://app.powerbi.com/view?r=eyJrIjoiNDg0NWRhNTYtMGY1Zi00ZjA5LTlhYTctNDQyYjgyMmI3ZTEwIiwidCI6IjkwYzdhMjBhLWYzNGItNDBiZi1iYzQ4LWI5MjUzYjZmNWQyMCIsImMiOjh9)
+_Pour les explorateurs:_ [une visualisation PowerBI](https://app.powerbi.com/view?r=eyJrIjoiNDg0NWRhNTYtMGY1Zi00ZjA5LTlhYTctNDQyYjgyMmI3ZTEwIiwidCI6IjkwYzdhMjBhLWYzNGItNDBiZi1iYzQ4LWI5MjUzYjZmNWQyMCIsImMiOjh9)
 
-**Obtenir les données**
------------------------
+## **Obtenir les données**
 
 Après quelque recherche sur le net,
 [iledefrance-mobilites](https://www.iledefrance-mobilites.fr/)
-à récemment publiés des *datasets* qui pourrait nous aider dans notre
+à récemment publiés des _datasets_ qui pourrait nous aider dans notre
 problématique.
 
 Il y a deux types de dataset disponibles : l'un décrit le nombre de
@@ -50,14 +48,12 @@ On observe sans surprise une diminution en août ; Paris est connu pour
 
 Comment les voyageurs se répartissent-ils sur les différentes lignes ?
 
-Une visualisation pertinente est le *swarm plot.* Il permet de
+Une visualisation pertinente est le _swarm plot._ Il permet de
 représenter toutes les données, plutôt que d'utiliser des agrégations.
 
 ![daily passenger distribution](/img/metro/daily-passenger-distribution.png)
 
-
-Chaque point représente le nombre de passagers pendant une journée en
-2017.
+Chaque point représente le nombre de passagers pendant une journée en 2017.
 
 Explorons maintenant le deuxième dataset.
 
@@ -88,12 +84,11 @@ Pour chaque profil :
 
 ![facet-profile](/img/metro/facet-grid-user-per-hour.png)
 
-**Du bon sens ?**
------------------
+## **Du bon sens ?**
 
 Il semble que la vision empirique se confirme en **moyenne**. Cependant,
-l'exploration des données (cf *[visualisation
+l'exploration des données (cf _[visualisation
 PowerBI](https://app.powerbi.com/view?r=eyJrIjoiNDg0NWRhNTYtMGY1Zi00ZjA5LTlhYTctNDQyYjgyMmI3ZTEwIiwidCI6IjkwYzdhMjBhLWYzNGItNDBiZi1iYzQ4LWI5MjUzYjZmNWQyMCIsImMiOjh9)
-)* permet d'observer que la tendance n'est pas confirmée pour toutes les
+)_ permet d'observer que la tendance n'est pas confirmée pour toutes les
 stations (exemples ?) et, que prendre le métro à des heures différentes
 pour celles-ci permet d'éviter la foule

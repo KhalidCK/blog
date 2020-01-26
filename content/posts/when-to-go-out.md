@@ -4,8 +4,7 @@ date: 2018-06-06T20:20:44+02:00
 draft: true
 ---
 
-
-Good weather is *almost* back and most people think to workout outside.
+Good weather is _almost_ back and most people think to workout outside.
 
 Seems like a good idea however air pollution can be problematic.
 
@@ -15,7 +14,7 @@ Air pollution is a major issue since several decades, and there is a well known 
 
 Practicing a physical activities can make you more exposed to pollution according to several sources
 
->you usually inhale more air and breathe it more deeply into your lungs. And because you're more likely to breathe deeply through your mouth during exercise, the air you breathe in generally bypasses your nasal passages, which normally filter airborne pollution particles.
+> you usually inhale more air and breathe it more deeply into your lungs. And because you're more likely to breathe deeply through your mouth during exercise, the air you breathe in generally bypasses your nasal passages, which normally filter airborne pollution particles.
 
 [ref](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/air-pollution-and-exercise/faq-20058563)
 
@@ -32,7 +31,6 @@ Load data
 from utils import read_air,save_img
 ```
 
-
 ```python
 df = read_air('data/20090101_20180301-PA13_auto.csv').set_index('date')
 ```
@@ -40,9 +38,6 @@ df = read_air('data/20090101_20180301-PA13_auto.csv').set_index('date')
 ```python
 df.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -57,6 +52,7 @@ df.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -101,10 +97,7 @@ df.head()
 </table>
 </div>
 
-
-
 A quick look at data seems to indicate that during the whole year at some point, if you're over exposed to one of them
-
 
 ```python
 ax= df.resample('1m').median().plot(figsize=(12,7),
@@ -112,12 +105,9 @@ ax= df.resample('1m').median().plot(figsize=(12,7),
 ax.set_ylabel(unit)
 ```
 
-
 ![png](/img/air_quality/monthly-median.png)
 
-
 Let's zoom on 2017
-
 
 ```python
 year=2017
@@ -129,12 +119,9 @@ _=ax.set_ylim(bottom=0)
 _=save_img('Monthly median for 2017')
 ```
 
-
 ![png](/img/air_quality/monthly-median-for-2017.png)
 
-
 Ok, what is happening on average in June ?
-
 
 ```python
 mask=df.index.month==6
@@ -148,8 +135,6 @@ _=ax.set_xlabel('hour')
 _=ax.set_ylim(bottom=0)
 ```
 
-
 ![png](/img/air_quality/hourly-average-in-june.png)
-
 
 It looks like that my best bet is early in the morning before 9am
