@@ -4,6 +4,8 @@ date: 2020-01-26T17:03:36+01:00
 draft: false
 ---
 
+**Notebook interactif**: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KhalidCK/tidydata/master?urlpath=lab)
+
 <!--BEACON
 Mettre ses données en ordre, c'est plus de temps pour poser les bonnes questions !
 -->
