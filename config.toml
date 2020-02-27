@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://khalidck.github.io/"
+baseURL = "https://khalidck.fr"
 languageCode = "fr"
 title = "KhalidCK"
 theme = "forty"
