@@ -4,7 +4,7 @@ date: 2020-01-26T17:03:36+01:00
 draft: false
 ---
 
-**Notebook interactif**: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KhalidCK/tidydata/master?urlpath=lab)
+**Notebook interactif**: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KhalidCK/tidydata/blob/master/population2019.ipynb)
 
 <!--BEACON
 Mettre ses données en ordre, c'est plus de temps pour poser les bonnes questions !
