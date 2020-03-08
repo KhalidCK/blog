@@ -7,6 +7,8 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
+# Custom CNAME
+echo "khalidck.fr"> CNAME
 # Add changes to git.
 git add .
 
