@@ -76,7 +76,13 @@ disqusShortname = ""
   [params.tiles]
     enable = true
     # Display your showcases here.
-    
+      [[params.tiles.showcase]]
+      title = "Le prix du bio"
+      subtitle = "comment savoir si les prix sont raisonnables ?"
+      image = "numbers-money-calculating-calculation-3305.jpg"
+      url = "posts/vege"
+
+
     [[params.tiles.showcase]]
       title = "Tidy data"
       subtitle = "Des données en ordre"
