@@ -48,9 +48,9 @@ l'ordre de 2 centimes les 10 GB par mois)
 ![vuejs](/img/vegeprice/image2.png) L’application [VueJS](https://vuejs.org/) qui s'exécute sur le navigateur (Firefox,
 chrome …)
 
-Le resultat: **[VegePrice.fr](https://vegeprice.fr)**
+Le resultat: **[VegePrice.fr](https://www.vegeprice.fr)**
 
-[![peek vegeprice](/img/vegeprice/peek-vegeprice.apng)](https://vegeprice.fr)
+[![peek vegeprice](/img/vegeprice/peek-vegeprice.apng)](https://www.vegeprice.fr)
 
 ## Les offres cloud serverless permettent de passer rapidement de l’idée à la mise en oeuvre.
 
